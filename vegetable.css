@@ -1,0 +1,97 @@
+body {
+    background-color: #EDF2C5;
+}
+
+header {
+    width: 1122px;
+    height: 62px;
+    margin: 0 auto;
+    padding: 53px 160px 0;
+    /* 上方與左右間距 */
+    display: flex;
+    /* 使用 Flex 讓元素橫向排列 */
+    justify-content: space-between;
+    /* 左右兩側分開 */
+    align-items: center;
+    /* 垂直置中 */
+    box-sizing: border-box;
+    /* 包含 padding 在寬度內 */
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Arial Black", sans-serif;
+    /* 粗體字型 */
+    font-size: 44px;
+    /* 對應設計標註 */
+    color: #778A50;
+    /* 綠橄欖色 (#778A50) */
+}
+
+.header-line {
+    border: 1px solid #778A50;
+    width: 0px;
+    height: 24px;
+    /* 綠橄欖色 (#778A50) */
+}
+
+.header-right {
+    display: flex;
+    align-items: right;
+    gap: 12px;
+    /* icon 與按鈕間距 */
+}
+
+.header-right i {
+    color: #778A50;
+    font-size: 24px;
+}
+
+.header-btn {
+    width: 1120;
+    height: 44;
+    color: #778A50;
+    /* 文字顏色 */
+    font-family: "Arial BoldMT", sans-serif;
+    /* 粗體 */
+    font-size: 16px;
+    /* 字體大小 */
+    border-radius: 3px;
+    /* 圓角 */
+    padding: 4px 8px;
+    /* 內距 */
+}
+
+nav {
+    width: 100%;
+    background-color: #778A50;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 16px;
+    /* 上下內距 */
+    box-sizing: border-box;
+}
+
+nav h2 {
+    color: #EDF2C5;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    color: #EDF2C5;
+    font-weight: 600;
+    font-size: 16px;
+    padding-right: 60px;
+    line-height: 1.5;
+}
+
+footer {
+    width: 1440px;
+    height: 60px;
+    background-color: #778A50;
+    text-align: center;
+    color: #EDF2C5;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    padding: 25px 24px;
+    line-height: 1.5;
+}
