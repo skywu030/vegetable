@@ -28,7 +28,7 @@ header h1 {
     /* 綠橄欖色 (#778A50) */
 }
 
-.header-line {
+.line {
     border: 1px solid #778A50;
     width: 0px;
     height: 24px;
@@ -50,7 +50,7 @@ header h1 {
 .header-btn {
     width: 1120;
     height: 44;
-    color: #000000;
+    color: #778A50;
     /* 文字顏色 */
     font-family: "Arial BoldMT", sans-serif;
     /* 粗體 */
